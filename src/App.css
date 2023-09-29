@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@200&family=Poppins:wght@300&display=swap');
+
+*{
+  font-family: 'Onest', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.stopwatch-container{
+  margin: 30vh auto;
+  width: 500px;
+  height: auto;
+  background-color: white;
+  border-radius: 15px;
+  padding-bottom: 20px;
+}
+body{
+  background-color: #486ff0;
+
+}
+h2{
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding: 10px;
+  border-radius: 15px;
+  color: #839ef9;
+}
+.time{
+  font-size: 45px;
+  text-align: center;
+  color: #486ff0;
+
+}
+button{
+  color: #22ABD5;
+  border: 1px solid #22ABD5;
+  border-radius: 50px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 15x;
+  width: 100px;
+  letter-spacing: 1px;
+  height: 40px;
+  font-weight: bold;
+  background-color: white;
+  margin-left: 20%;
+  margin-top: 5%;
+
+
+}
+
+.start, .resume{
+  color: #22d579;
+  border: 1px solid #22d579;
+
+}
+.stop, .reset{
+  color: #d52222;
+  border: 1px solid #d52222;
+
+}
